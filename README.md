@@ -1,8 +1,6 @@
-# learn-skills — Bob Skill Lifecycle System
+# ABLE — Automatic Bob Learning and Extension
 
-> A workspace for building and learning the automated Skill lifecycle system for IBM Bob.
-> The system identifies user requests, searches for a matching Skill (official / community / local),
-> and if none exists — generates and installs a new Skill with security and integrity guarantees.
+| Sometimes you don't know what you need to create a Skill — and that's exactly what ABLE solves. When a task requires capabilities Bob doesn't yet have, ABLE detects the gap, finds or builds the right Skill automatically, and gets the job done safely & securely.
 
 ---
 
