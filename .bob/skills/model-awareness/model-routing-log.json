@@ -1,0 +1,1235 @@
+[
+  {
+    "timestamp": "2026-09-27T08:08:42.090Z",
+    "decision_id": "dec-9ab1a6016b32",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "security",
+    "risk_level": "high",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "quality_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "HIGH_SECURITY_RISK"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:08:42.326Z",
+    "decision_id": "dec-238c5268cd12",
+    "prompt_hash": "fb4336343768fc8c39d8c1f1565088b578e9a77bb59bacbe6987d8c0c8307d17",
+    "task_type": "security",
+    "risk_level": "high",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "quality_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "HIGH_SECURITY_RISK"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:09:39.291Z",
+    "decision_id": "dec-c407fd16832f",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "security",
+    "risk_level": "high",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "quality_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "HIGH_SECURITY_RISK"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:09:39.416Z",
+    "decision_id": "dec-b82f6c59b620",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "security",
+    "risk_level": "high",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "quality_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ENFORCED",
+    "confirmed_actual_model": "cheap-utility-model",
+    "reason_codes": [
+      "HIGH_SECURITY_RISK"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:09:39.741Z",
+    "decision_id": "dec-c9a79be0cb15",
+    "prompt_hash": "fb4336343768fc8c39d8c1f1565088b578e9a77bb59bacbe6987d8c0c8307d17",
+    "task_type": "security",
+    "risk_level": "high",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "quality_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "HIGH_SECURITY_RISK"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:09:59.103Z",
+    "decision_id": "dec-efacbf888599",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "security",
+    "risk_level": "high",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "quality_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "HIGH_SECURITY_RISK"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:10:56.064Z",
+    "decision_id": "dec-bb44774e3d56",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "LOW_RISK_FORMATTING"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:11:28.399Z",
+    "decision_id": "dec-0fe47341bc4b",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "LOW_RISK_FORMATTING"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:11:28.513Z",
+    "decision_id": "dec-c47c4587b2e4",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ENFORCED",
+    "confirmed_actual_model": "cheap-utility-model",
+    "reason_codes": [
+      "LOW_RISK_FORMATTING"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:11:28.625Z",
+    "decision_id": "dec-2105692aacd5",
+    "prompt_hash": "90bb6cec2002eaf72cf6a2e407ee7b0382fa8a7d5fd073452865dd96d687079b",
+    "task_type": "security",
+    "risk_level": "high",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "quality_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ENFORCED",
+    "confirmed_actual_model": "local-reasoning-high",
+    "reason_codes": [
+      "HIGH_SECURITY_RISK",
+      "AUTHORIZATION_LOGIC"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:11:28.869Z",
+    "decision_id": "dec-79326480ce81",
+    "prompt_hash": "fb4336343768fc8c39d8c1f1565088b578e9a77bb59bacbe6987d8c0c8307d17",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:11:42.600Z",
+    "decision_id": "dec-4a9de31fa55f",
+    "prompt_hash": "90bb6cec2002eaf72cf6a2e407ee7b0382fa8a7d5fd073452865dd96d687079b",
+    "task_type": "security",
+    "risk_level": "high",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "quality_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "HIGH_SECURITY_RISK",
+      "AUTHORIZATION_LOGIC"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:12:19.144Z",
+    "decision_id": "dec-e8178f829712",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "LOW_RISK_FORMATTING"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:12:19.279Z",
+    "decision_id": "dec-eb0ef89f210b",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ENFORCED",
+    "confirmed_actual_model": "cheap-utility-model",
+    "reason_codes": [
+      "LOW_RISK_FORMATTING"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:12:19.392Z",
+    "decision_id": "dec-dda4493fd75f",
+    "prompt_hash": "90bb6cec2002eaf72cf6a2e407ee7b0382fa8a7d5fd073452865dd96d687079b",
+    "task_type": "security",
+    "risk_level": "high",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "quality_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ENFORCED",
+    "confirmed_actual_model": "enterprise-reasoning-primary",
+    "reason_codes": [
+      "HIGH_SECURITY_RISK",
+      "AUTHORIZATION_LOGIC"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:12:19.618Z",
+    "decision_id": "dec-4f036c70af77",
+    "prompt_hash": "fb4336343768fc8c39d8c1f1565088b578e9a77bb59bacbe6987d8c0c8307d17",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:16:20.233Z",
+    "decision_id": "dec-489fa7afda5a",
+    "prompt_hash": "37c9a84094e76f86d20f2ea29e077eceb949babc4474a094bb9a9ad6217d0240",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "wasm-performance",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:18:18.544Z",
+    "decision_id": "dec-74a672dd5fca",
+    "prompt_hash": "f9a6000bf2e28c173b1bc6b22874177cd5881bd575f712d6a38cec88ada2b6e8",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:24:31.070Z",
+    "decision_id": "dec-ebc8f72cba59",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "LOW_RISK_FORMATTING"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:24:31.155Z",
+    "decision_id": "dec-524f24e62d63",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ENFORCED",
+    "confirmed_actual_model": "cheap-utility-model",
+    "reason_codes": [
+      "LOW_RISK_FORMATTING"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:24:31.239Z",
+    "decision_id": "dec-dcda20419a8d",
+    "prompt_hash": "90bb6cec2002eaf72cf6a2e407ee7b0382fa8a7d5fd073452865dd96d687079b",
+    "task_type": "security",
+    "risk_level": "high",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "quality_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ENFORCED",
+    "confirmed_actual_model": "enterprise-reasoning-primary",
+    "reason_codes": [
+      "HIGH_SECURITY_RISK",
+      "AUTHORIZATION_LOGIC"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:24:31.420Z",
+    "decision_id": "dec-9f3541148025",
+    "prompt_hash": "fb4336343768fc8c39d8c1f1565088b578e9a77bb59bacbe6987d8c0c8307d17",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:25:03.925Z",
+    "decision_id": "dec-ad5c668a5437",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "LOW_RISK_FORMATTING"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:25:04.015Z",
+    "decision_id": "dec-22c0e11a263f",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ENFORCED",
+    "confirmed_actual_model": "cheap-utility-model",
+    "reason_codes": [
+      "LOW_RISK_FORMATTING"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:25:04.113Z",
+    "decision_id": "dec-1e81cc161ea3",
+    "prompt_hash": "90bb6cec2002eaf72cf6a2e407ee7b0382fa8a7d5fd073452865dd96d687079b",
+    "task_type": "security",
+    "risk_level": "high",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "quality_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ENFORCED",
+    "confirmed_actual_model": "enterprise-reasoning-primary",
+    "reason_codes": [
+      "HIGH_SECURITY_RISK",
+      "AUTHORIZATION_LOGIC"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:25:04.315Z",
+    "decision_id": "dec-40f4020fa05d",
+    "prompt_hash": "fb4336343768fc8c39d8c1f1565088b578e9a77bb59bacbe6987d8c0c8307d17",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:37:57.997Z",
+    "decision_id": "dec-af2434b2bfb1",
+    "prompt_hash": "60b5c5e4ce0144977d02e49d5daa5142cffffec059124ffc2791c2baeaa35c84",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T08:39:04.921Z",
+    "decision_id": "dec-17c8b04d4c02",
+    "prompt_hash": "e000072be74fb6f8f3c9629083e339fd7bfbcfc15ee895e601e1385b6beb465f",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "AMBIGUOUS_REQUIREMENTS",
+      "LOW_CLASSIFICATION_CONFIDENCE"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:08:45.429Z",
+    "decision_id": "dec-af6940059a8d",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "LOW_RISK_FORMATTING"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:08:45.507Z",
+    "decision_id": "dec-7f72719687d9",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ENFORCED",
+    "confirmed_actual_model": "cheap-utility-model",
+    "reason_codes": [
+      "LOW_RISK_FORMATTING"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:08:45.588Z",
+    "decision_id": "dec-b50f38ab4fac",
+    "prompt_hash": "90bb6cec2002eaf72cf6a2e407ee7b0382fa8a7d5fd073452865dd96d687079b",
+    "task_type": "security",
+    "risk_level": "high",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "quality_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ENFORCED",
+    "confirmed_actual_model": "enterprise-reasoning-primary",
+    "reason_codes": [
+      "HIGH_SECURITY_RISK",
+      "AUTHORIZATION_LOGIC"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:08:45.756Z",
+    "decision_id": "dec-3b8914c471ed",
+    "prompt_hash": "fb4336343768fc8c39d8c1f1565088b578e9a77bb59bacbe6987d8c0c8307d17",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:09:46.681Z",
+    "decision_id": "dec-1de4e32f7432",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "LOW_RISK_FORMATTING"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:09:46.764Z",
+    "decision_id": "dec-4efcaae5b937",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ENFORCED",
+    "confirmed_actual_model": "cheap-utility-model",
+    "reason_codes": [
+      "LOW_RISK_FORMATTING"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:09:46.853Z",
+    "decision_id": "dec-9972239c852d",
+    "prompt_hash": "90bb6cec2002eaf72cf6a2e407ee7b0382fa8a7d5fd073452865dd96d687079b",
+    "task_type": "security",
+    "risk_level": "high",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "quality_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ENFORCED",
+    "confirmed_actual_model": "enterprise-reasoning-primary",
+    "reason_codes": [
+      "HIGH_SECURITY_RISK",
+      "AUTHORIZATION_LOGIC"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:09:47.025Z",
+    "decision_id": "dec-b73d3a8adfe4",
+    "prompt_hash": "fb4336343768fc8c39d8c1f1565088b578e9a77bb59bacbe6987d8c0c8307d17",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:12:41.485Z",
+    "decision_id": "dec-79a027c758f7",
+    "prompt_hash": "f6677c54de36dae50af5172424ee71dad299a6daa1583e03e1e482bba000a54a",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:18:44.142Z",
+    "decision_id": "dec-4fb538c3d6af",
+    "prompt_hash": "102a50ed00f6ce6baac09a44afc0b5327748ac5fc19f92ee673eca3064c55220",
+    "task_type": "db",
+    "risk_level": "high",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "quality_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "PRODUCTION_CHANGE",
+      "DB_MIGRATION",
+      "HUMAN_APPROVAL_REQUIRED"
+    ],
+    "human_approval_required": true,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:19:01.015Z",
+    "decision_id": "dec-a917db40267a",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "LOW_RISK_FORMATTING"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:19:01.101Z",
+    "decision_id": "dec-7efa1e0977e3",
+    "prompt_hash": "e3839005dd2534368f3ed5c5f6ff2b4ef760bdcdafda6e0a0e15fd8c1e01aea6",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ENFORCED",
+    "confirmed_actual_model": "cheap-utility-model",
+    "reason_codes": [
+      "LOW_RISK_FORMATTING"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:19:01.186Z",
+    "decision_id": "dec-b6463af7cdb1",
+    "prompt_hash": "90bb6cec2002eaf72cf6a2e407ee7b0382fa8a7d5fd073452865dd96d687079b",
+    "task_type": "security",
+    "risk_level": "high",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "quality_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ENFORCED",
+    "confirmed_actual_model": "enterprise-reasoning-primary",
+    "reason_codes": [
+      "HIGH_SECURITY_RISK",
+      "AUTHORIZATION_LOGIC"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:19:01.364Z",
+    "decision_id": "dec-a9acc8c3baa3",
+    "prompt_hash": "fb4336343768fc8c39d8c1f1565088b578e9a77bb59bacbe6987d8c0c8307d17",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:19:09.341Z",
+    "decision_id": "dec-90a610b273b2",
+    "prompt_hash": "e4674c5d142cf326b7577917f27b2cb1bc231c88f0af6a4032524c1bdb85102e",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:20:37.095Z",
+    "decision_id": "dec-6f647879dc31",
+    "prompt_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "AMBIGUOUS_REQUIREMENTS",
+      "LOW_CLASSIFICATION_CONFIDENCE"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:20:57.560Z",
+    "decision_id": "dec-fe1469c90e90",
+    "prompt_hash": "b808ba9fa11f204e104e8c7fce78a31bae47b30c3ca79d8d3a65304c099d7e4d",
+    "task_type": "feature",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "LOW_RISK_FORMATTING",
+      "AMBIGUOUS_REQUIREMENTS",
+      "LOW_CLASSIFICATION_CONFIDENCE"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:21:08.667Z",
+    "decision_id": "dec-30ad5259a728",
+    "prompt_hash": "b808ba9fa11f204e104e8c7fce78a31bae47b30c3ca79d8d3a65304c099d7e4d",
+    "task_type": "feature",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "LOW_RISK_FORMATTING",
+      "AMBIGUOUS_REQUIREMENTS",
+      "LOW_CLASSIFICATION_CONFIDENCE"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:21:28.371Z",
+    "decision_id": "dec-a229ffe4a02b",
+    "prompt_hash": "b808ba9fa11f204e104e8c7fce78a31bae47b30c3ca79d8d3a65304c099d7e4d",
+    "task_type": "feature",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "cost_first",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [
+      "LOW_RISK_FORMATTING",
+      "AMBIGUOUS_REQUIREMENTS",
+      "LOW_CLASSIFICATION_CONFIDENCE"
+    ],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  }
+]

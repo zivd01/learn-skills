@@ -79,29 +79,37 @@ const STRICT_NETWORK_RESTRICTIONS = [
   /\b(ngrok|serveo|localtunnel|loca\.lt)\.io\b/i // Block common tunneling services
 ];
 
-// Domains that are explicitly allowed (if network calls are made)
-const ALLOWED_DOMAINS = [
+// Centralized domains that are explicitly allowed (if network calls are made)
+export let ALLOWED_DOMAINS = [
   'github.com',
   'raw.githubusercontent.com',
   'ibm.com',
   'api.github.com',
-  // Vendor documentation domains -- safe in skill reference links
   'grafana.com',
   'grafana.net',
   'prometheus.io',
-  'localhost',           // local dev references in skill docs
-  // IBM Instana + Membrane CLI -- vendor doc links in instana skill
+  'localhost',
   'instana.com',
   'getmembrane.com',
-  // DataStage / IBM Cloud
   'cloud.ibm.com',
   'dataplatform.cloud.ibm.com',
-  // IBM NS1 Connect (IBM acquired NS1 in 2021) -- official IBM product domains
   'ns1.com',
   'nsone.net',
   'my.nsone.net',
   'api.nsone.net'
 ];
+
+try {
+  const policyPath = join(__dirname, '..', 'airgap-validator', 'airgap-policy.json');
+  if (existsSync(policyPath)) {
+    const policy = JSON.parse(readFileSync(policyPath, 'utf8'));
+    if (policy && Array.isArray(policy.approved_domains)) {
+      ALLOWED_DOMAINS = policy.approved_domains;
+    }
+  }
+} catch (e) {
+  // Safe fallback to hardcoded domains
+}
 
 // ---------------------------------------------------------------------------
 // Scanner

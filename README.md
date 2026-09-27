@@ -50,8 +50,10 @@ learn-skills/
 │       │   └── web-browse.mjs                 <- DuckDuckGo + GitHub fallback + rank + cache
 │       ├── airgap-validator/
 │       │   └── SKILL.md                       <- Artifact validation before airgap deploy
-│       └── security-review/
-│           └── SKILL.md                       <- Code security review (6 categories)
+│       ├── security-review/
+│       │   └── SKILL.md                       <- Code security review (6 categories)
+│       └── wasm-performance/
+│           └── SKILL.md                       <- WebAssembly profiling & optimization
 │
 └── docs/
     ├── skills-guide.md                        <- General guide to building Skills
@@ -109,6 +111,19 @@ node .bob/skills/web-browse/web-browse.mjs rank "IBM/some-repo"
 **What it does:** Code review across 6 categories: Secrets, Injection, Auth, Web, Dependencies, Privacy.
 
 **When activated:** Automatically when requesting "security review", "check for vulnerabilities".
+
+---
+
+### 5. `wasm-performance` — WebAssembly Performance Optimization
+
+**What it does:** Guides profiling, memory layout analysis, SIMD vectorization, and JS↔WASM boundary
+optimization across Rust/wasm-pack, C++/Emscripten, AssemblyScript, and TinyGo toolchains.
+
+**When activated:** Automatically when the user asks to "optimize WASM", "profile a WebAssembly module",
+or "set up a wasm build pipeline".
+
+**Steps covered:** Toolchain identification → binary inspection (`wasm-objdump`, `wasm-opt`) →
+linear memory tuning → SIMD vectorization → boundary batching → browser DevTools profiling → results report.
 
 ---
 

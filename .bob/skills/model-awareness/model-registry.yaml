@@ -1,0 +1,265 @@
+models:
+  enterprise-reasoning-primary:
+    enabled: true
+    approved: true
+    provider: ibm-watsonx
+    provider_model_id: ibm/granite-13b-instruct-v2
+    deployment_location: us-south
+    version_policy: pinned
+    capabilities:
+      reasoning: high
+      coding: high
+      tool_calling: true
+      tool_choice: true
+      structured_output: true
+      context_tokens: 32768
+      maximum_output_tokens: 4096
+      vision: false
+      prompt_caching: true
+    governance:
+      approved_data_classes:
+        - public
+        - internal
+      external_processing: true
+      air_gap_compatible: false
+      production_approved: true
+    operational:
+      health_status: healthy
+      reliability_score: 0.98
+      latency_score: 180
+    economics:
+      input_cost_per_token: 0.000002
+      output_cost_per_token: 0.000002
+      currency: USD
+
+  enterprise-coding-primary:
+    enabled: true
+    approved: true
+    provider: ibm-watsonx
+    provider_model_id: ibm/granite-20b-code-instruct
+    deployment_location: us-south
+    version_policy: pinned
+    capabilities:
+      reasoning: medium
+      coding: high
+      tool_calling: true
+      tool_choice: true
+      structured_output: true
+      context_tokens: 16384
+      maximum_output_tokens: 2048
+      vision: false
+      prompt_caching: false
+    governance:
+      approved_data_classes:
+        - public
+        - internal
+      external_processing: true
+      air_gap_compatible: false
+      production_approved: true
+    operational:
+      health_status: healthy
+      reliability_score: 0.95
+      latency_score: 150
+    economics:
+      input_cost_per_token: 0.0000015
+      output_cost_per_token: 0.0000015
+      currency: USD
+
+  local-governance-safe:
+    enabled: true
+    approved: true
+    provider: local-ollama
+    provider_model_id: granite-code:8b
+    deployment_location: on-premise
+    version_policy: pinned
+    capabilities:
+      reasoning: medium
+      coding: medium
+      tool_calling: true
+      tool_choice: true
+      structured_output: true
+      context_tokens: 8192
+      maximum_output_tokens: 2048
+      vision: false
+      prompt_caching: false
+    governance:
+      approved_data_classes:
+        - public
+        - internal
+        - confidential
+        - restricted
+      external_processing: false
+      air_gap_compatible: true
+      production_approved: true
+    operational:
+      health_status: healthy
+      reliability_score: 0.99
+      latency_score: 80
+    economics:
+      input_cost_per_token: 0.0
+      output_cost_per_token: 0.0
+      currency: USD
+
+  local-reasoning-high:
+    enabled: true
+    approved: true
+    provider: local-ollama
+    provider_model_id: llama3-reasoning:70b
+    deployment_location: on-premise
+    version_policy: pinned
+    capabilities:
+      reasoning: high
+      coding: high
+      tool_calling: true
+      tool_choice: true
+      structured_output: true
+      context_tokens: 32768
+      maximum_output_tokens: 4096
+      vision: false
+      prompt_caching: false
+    governance:
+      approved_data_classes:
+        - public
+        - internal
+        - confidential
+        - restricted
+      external_processing: false
+      air_gap_compatible: true
+      production_approved: true
+    operational:
+      health_status: healthy
+      reliability_score: 0.97
+      latency_score: 250
+    economics:
+      input_cost_per_token: 0.0
+      output_cost_per_token: 0.0
+      currency: USD
+
+  enterprise-multimodal-primary:
+    enabled: true
+    approved: true
+    provider: ibm-watsonx
+    provider_model_id: ibm/granite-vision-v1
+    deployment_location: us-south
+    version_policy: pinned
+    capabilities:
+      reasoning: medium
+      coding: medium
+      tool_calling: true
+      tool_choice: false
+      structured_output: true
+      context_tokens: 16384
+      maximum_output_tokens: 2048
+      vision: true
+      prompt_caching: false
+    governance:
+      approved_data_classes:
+        - public
+        - internal
+      external_processing: true
+      air_gap_compatible: false
+      production_approved: false
+    operational:
+      health_status: healthy
+      reliability_score: 0.94
+      latency_score: 300
+    economics:
+      input_cost_per_token: 0.000003
+      output_cost_per_token: 0.000003
+      currency: USD
+
+  cheap-utility-model:
+    enabled: true
+    approved: true
+    provider: public-api
+    provider_model_id: basic-fast-model
+    deployment_location: global-cdn
+    version_policy: floating
+    capabilities:
+      reasoning: low
+      coding: low
+      tool_calling: false
+      tool_choice: false
+      structured_output: false
+      context_tokens: 4096
+      maximum_output_tokens: 1024
+      vision: false
+      prompt_caching: false
+    governance:
+      approved_data_classes:
+        - public
+      external_processing: true
+      air_gap_compatible: false
+      production_approved: false
+    operational:
+      health_status: healthy
+      reliability_score: 0.90
+      latency_score: 50
+    economics:
+      input_cost_per_token: 0.0000001
+      output_cost_per_token: 0.0000002
+      currency: USD
+
+  unhealthy-utility:
+    enabled: true
+    approved: true
+    provider: public-api
+    provider_model_id: broken-model
+    deployment_location: global-cdn
+    version_policy: floating
+    capabilities:
+      reasoning: low
+      coding: low
+      tool_calling: true
+      tool_choice: false
+      structured_output: false
+      context_tokens: 4096
+      maximum_output_tokens: 1024
+      vision: false
+      prompt_caching: false
+    governance:
+      approved_data_classes:
+        - public
+      external_processing: true
+      air_gap_compatible: false
+      production_approved: false
+    operational:
+      health_status: unhealthy
+      reliability_score: 0.10
+      latency_score: 2000
+    economics:
+      input_cost_per_token: 0.0
+      output_cost_per_token: 0.0
+      currency: USD
+
+  neutral-unknowns-model:
+    enabled: true
+    approved: true
+    provider: public-api
+    provider_model_id: mysterious-model
+    deployment_location: unknown
+    version_policy: unknown
+    capabilities:
+      reasoning: medium
+      coding: medium
+      tool_calling: true
+      tool_choice: true
+      structured_output: true
+      context_tokens: 8192
+      maximum_output_tokens: 2048
+      vision: false
+      prompt_caching: false
+    governance:
+      approved_data_classes:
+        - public
+      external_processing: true
+      air_gap_compatible: false
+      production_approved: false
+    operational:
+      health_status: unknown
+      reliability_score: null
+      latency_score: null
+    economics:
+      input_cost_per_token: null
+      output_cost_per_token: null
+      currency: USD

@@ -33,7 +33,7 @@ metadata:
 
 1. **Vendor Trust Allowlist**: Only fetch external skills from verified vendor organizations (`IBM/*`, `ibm-self-serve-assets/*`, `modelcontextprotocol/*`, `anthropics/*`). Reject unverified sources.
 2. **Cryptographic Integrity & SHA-256**: Calculate and store the SHA-256 checksum for every installed skill. Reject if hash mismatch occurs.
-3. **Static Security Content Scan**: Pre-scan the `SKILL.md` and helper scripts using `skill-security-verifier.mjs` before saving to disk. Instantly reject files with destructive commands (`rm -rf`, `iex`, `curl | sh`), prompt injection patterns, or credential harvesting logic.
+3. **Static Security Content Scan**: Pre-scan the `SKILL.md` and helper scripts using `skill-security-verifier.mjs` before saving to disk. Instantly reject files with destructive commands (`rm -rf`, `iex`, `curl_pipe_sh`), prompt injection patterns, or credential harvesting logic.
 4. **Single-Skill Cap**: Maximum 1 downloaded or generated skill per task execution. Before installing any skill, run:
    ```bash
    node .bob/skills/code-awareness/skill-security-verifier.mjs --cap <sessionId>

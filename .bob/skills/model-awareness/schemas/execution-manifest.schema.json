@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ExecutionManifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "decision_id",
+    "created_at",
+    "prompt_hash",
+    "task",
+    "skills",
+    "model_requirements",
+    "policy",
+    "routing",
+    "execution",
+    "verification"
+  ],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "decision_id": { "type": "string" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "prompt_hash": { "type": "string" },
+    "task": {
+      "type": "object",
+      "required": ["type", "subtype", "complexity", "risk", "data_classification", "confidence", "reason_codes"],
+      "properties": {
+        "type": { "type": "string" },
+        "subtype": { "type": "string" },
+        "complexity": { "enum": ["low", "medium", "high", "critical"] },
+        "risk": { "enum": ["low", "medium", "high", "critical"] },
+        "data_classification": { "enum": ["public", "internal", "confidential", "restricted"] },
+        "confidence": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "reason_codes": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "source", "checksum", "security_status", "integrity_status"],
+        "properties": {
+          "name": { "type": "string" },
+          "source": { "type": "string" },
+          "checksum": { "type": "string" },
+          "security_status": { "enum": ["verified", "rejected", "unknown"] },
+          "integrity_status": { "enum": ["verified", "failed", "unknown"] }
+        }
+      }
+    },
+    "model_requirements": { "$ref": "model-requirement-profile.schema.json" },
+    "policy": {
+      "type": "object",
+      "required": ["optimization", "external_processing_allowed", "air_gapped", "human_approval_required"],
+      "properties": {
+        "optimization": { "enum": ["cost_first", "balanced", "quality_first"] },
+        "external_processing_allowed": { "type": "boolean" },
+        "air_gapped": { "type": "boolean" },
+        "human_approval_required": { "type": "boolean" }
+      }
+    },
+    "routing": { "$ref": "routing-decision.schema.json" },
+    "execution": {
+      "type": "object",
+      "required": ["mode", "plan_before_execution", "verification_required", "approval_required_before_write", "approval_required_before_command"],
+      "properties": {
+        "mode": { "enum": ["ask", "plan", "agent"] },
+        "plan_before_execution": { "type": "boolean" },
+        "verification_required": { "type": "boolean" },
+        "approval_required_before_write": { "type": "boolean" },
+        "approval_required_before_command": { "type": "boolean" }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": ["required_checks", "acceptance_criteria", "escalation_conditions"],
+      "properties": {
+        "required_checks": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "acceptance_criteria": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "escalation_conditions": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

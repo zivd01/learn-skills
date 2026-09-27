@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TaskAnalysis",
+  "type": "object",
+  "required": [
+    "task_type",
+    "task_subtype",
+    "complexity",
+    "risk_level",
+    "data_classification",
+    "production_impact",
+    "required_capabilities",
+    "constraints",
+    "optimization_policy",
+    "confidence",
+    "reason_codes"
+  ],
+  "properties": {
+    "task_type": { "type": "string" },
+    "task_subtype": { "type": "string" },
+    "complexity": { "enum": ["low", "medium", "high", "critical"] },
+    "risk_level": { "enum": ["low", "medium", "high", "critical"] },
+    "data_classification": { "enum": ["public", "internal", "confidential", "restricted"] },
+    "production_impact": { "type": "boolean" },
+    "required_capabilities": {
+      "type": "object",
+      "required": ["reasoning", "coding", "tool_calling", "structured_output", "long_context", "minimum_context_tokens", "vision", "multilingual"],
+      "properties": {
+        "reasoning": { "enum": ["low", "medium", "high"] },
+        "coding": { "enum": ["none", "low", "medium", "high"] },
+        "tool_calling": { "type": "boolean" },
+        "structured_output": { "type": "boolean" },
+        "long_context": { "type": "boolean" },
+        "minimum_context_tokens": { "type": "integer", "minimum": 0 },
+        "vision": { "type": "boolean" },
+        "multilingual": { "type": "boolean" }
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "required": ["external_processing_allowed", "air_gapped", "approved_providers_only", "human_approval_required"],
+      "properties": {
+        "external_processing_allowed": { "type": "boolean" },
+        "air_gapped": { "type": "boolean" },
+        "approved_providers_only": { "type": "boolean" },
+        "human_approval_required": { "type": "boolean" }
+      }
+    },
+    "optimization_policy": { "enum": ["cost_first", "balanced", "quality_first"] },
+    "confidence": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+    "reason_codes": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

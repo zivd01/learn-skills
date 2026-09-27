@@ -1,0 +1,26 @@
+quality_first:
+  quality: 30
+  reasoning: 20
+  security_and_residency: 20
+  tool_compatibility: 10
+  reliability: 10
+  cost: 5
+  latency: 5
+
+balanced:
+  quality: 20
+  reasoning: 15
+  security_and_residency: 20
+  tool_compatibility: 15
+  reliability: 10
+  cost: 10
+  latency: 10
+
+cost_first:
+  quality: 10
+  reasoning: 10
+  security_and_residency: 20
+  tool_compatibility: 10
+  reliability: 10
+  cost: 25
+  latency: 15

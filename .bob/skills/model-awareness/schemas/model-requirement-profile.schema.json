@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ModelRequirementProfile",
+  "type": "object",
+  "required": [
+    "reasoning",
+    "coding",
+    "tool_calling_required",
+    "tool_choice_required",
+    "structured_output_required",
+    "minimum_context_tokens",
+    "minimum_output_tokens",
+    "vision_required",
+    "prompt_caching_preferred",
+    "maximum_expected_latency_ms",
+    "data_classification",
+    "allowed_deployment_locations",
+    "allowed_providers",
+    "air_gapped",
+    "optimization_policy",
+    "human_approval_required"
+  ],
+  "properties": {
+    "reasoning": { "enum": ["low", "medium", "high"] },
+    "coding": { "enum": ["none", "low", "medium", "high"] },
+    "tool_calling_required": { "type": "boolean" },
+    "tool_choice_required": { "type": "boolean" },
+    "structured_output_required": { "type": "boolean" },
+    "minimum_context_tokens": { "type": "integer", "minimum": 0 },
+    "minimum_output_tokens": { "type": "integer", "minimum": 0 },
+    "vision_required": { "type": "boolean" },
+    "prompt_caching_preferred": { "type": "boolean" },
+    "maximum_expected_latency_ms": { "type": ["integer", "null"], "minimum": 0 },
+    "data_classification": { "enum": ["public", "internal", "confidential", "restricted"] },
+    "allowed_deployment_locations": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "allowed_providers": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "air_gapped": { "type": "boolean" },
+    "optimization_policy": { "enum": ["cost_first", "balanced", "quality_first"] },
+    "human_approval_required": { "type": "boolean" }
+  }
+}

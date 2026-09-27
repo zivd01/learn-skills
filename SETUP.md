@@ -36,8 +36,10 @@ your-workspace/
         │   └── web-browse.mjs                 ← DuckDuckGo / GitHub / Brave search
         ├── airgap-validator/
         │   └── SKILL.md                       ← Airgap artifact validator
-        └── security-review/
-            └── SKILL.md                       ← Code security review skill
+        ├── security-review/
+        │   └── SKILL.md                       ← Code security review skill
+        └── wasm-performance/
+            └── SKILL.md                       ← WebAssembly profiling & optimization
 ```
 
 ---
@@ -94,10 +96,11 @@ copy each sub-folder individually to avoid overwriting your existing config.
 $src = "C:\path\to\learn-skills\.bob\skills"
 $dst = "C:\path\to\your-workspace\.bob\skills"
 
-Copy-Item -Recurse "$src\code-awareness" "$dst\code-awareness"
-Copy-Item -Recurse "$src\web-browse"     "$dst\web-browse"
+Copy-Item -Recurse "$src\code-awareness"   "$dst\code-awareness"
+Copy-Item -Recurse "$src\web-browse"       "$dst\web-browse"
 Copy-Item -Recurse "$src\airgap-validator" "$dst\airgap-validator"
 Copy-Item -Recurse "$src\security-review"  "$dst\security-review"
+Copy-Item -Recurse "$src\wasm-performance" "$dst\wasm-performance"
 ```
 
 ```bash
@@ -109,6 +112,7 @@ cp -r "$SRC/skills/code-awareness"    "$DST/skills/"
 cp -r "$SRC/skills/web-browse"        "$DST/skills/"
 cp -r "$SRC/skills/airgap-validator"  "$DST/skills/"
 cp -r "$SRC/skills/security-review"   "$DST/skills/"
+cp -r "$SRC/skills/wasm-performance"  "$DST/skills/"
 ```
 
 ### 2. Copy the hooks
@@ -298,6 +302,7 @@ Task complete
 | `.bob/skills/web-browse/web-browse.mjs` | DuckDuckGo + GitHub + Brave search engine |
 | `.bob/skills/airgap-validator/SKILL.md` | Validates artifacts for air-gapped environments |
 | `.bob/skills/security-review/SKILL.md` | Code security review across 6 risk categories |
+| `.bob/skills/wasm-performance/SKILL.md` | WebAssembly profiling, SIMD, memory optimization |
 
 ---
 

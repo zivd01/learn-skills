@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RoutingDecision",
+  "type": "object",
+  "required": [
+    "recommended_model_profile",
+    "fallback_model_profile",
+    "escalation_model_profile",
+    "routing_enforcement",
+    "platform_confirmation",
+    "reason_codes"
+  ],
+  "properties": {
+    "recommended_model_profile": { "type": "string" },
+    "fallback_model_profile": { "type": "string" },
+    "escalation_model_profile": { "type": ["string", "null"] },
+    "routing_enforcement": { "enum": ["ENFORCED", "ADVISORY", "UNAVAILABLE"] },
+    "platform_confirmation": { "type": ["string", "null"] },
+    "reason_codes": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

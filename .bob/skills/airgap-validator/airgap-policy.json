@@ -1,0 +1,21 @@
+{
+  "approved_domains": [
+    "github.com",
+    "raw.githubusercontent.com",
+    "ibm.com",
+    "api.github.com",
+    "brave.com",
+    "grafana.com",
+    "grafana.net",
+    "prometheus.io",
+    "localhost",
+    "instana.com",
+    "getmembrane.com",
+    "cloud.ibm.com",
+    "dataplatform.cloud.ibm.com",
+    "ns1.com",
+    "nsone.net",
+    "my.nsone.net",
+    "api.nsone.net"
+  ]
+}
