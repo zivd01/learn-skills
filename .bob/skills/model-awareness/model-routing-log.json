@@ -1231,5 +1231,53 @@
     "human_approval_required": false,
     "verification_status": "pending",
     "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:49:27.243Z",
+    "decision_id": "dec-b09bfd909e58",
+    "prompt_hash": "435858c2cbc6bd2c508dbc8f6911444d844d392b70fc63aef2560a5781053e9b",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
+  },
+  {
+    "timestamp": "2026-09-27T09:51:33.885Z",
+    "decision_id": "dec-484ff3631835",
+    "prompt_hash": "ba9912c95fa1f4f7eec5e9bfa26a564cbaa5fca2baa9a3aee9dea700db3553d4",
+    "task_type": "general",
+    "risk_level": "low",
+    "data_classification": "public",
+    "selected_skills": [
+      "airgap-validator",
+      "code-awareness",
+      "model-awareness",
+      "security-review",
+      "web-browse"
+    ],
+    "optimization_policy": "balanced",
+    "recommended_model_profile": "local-reasoning-high",
+    "fallback_model_profile": "enterprise-reasoning-primary",
+    "routing_enforcement": "ADVISORY",
+    "confirmed_actual_model": null,
+    "reason_codes": [],
+    "human_approval_required": false,
+    "verification_status": "pending",
+    "escalation_performed": false
   }
 ]
